@@ -1,6 +1,7 @@
 import Header from './components/header';
 import Bridegroom from './components/bridegroom';
 import Sidebar from './components/sidebar';
+import Countdown from './components/countdown';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div id="oliven-main">
         <Header />
         <Bridegroom />
+        <Countdown />
       </div>
     </>
   );
