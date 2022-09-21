@@ -1,12 +1,16 @@
 import Header from './components/header';
 import Bridegroom from './components/bridegroom';
+import Sidebar from './components/sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Bridegroom />
-    </div>
+    <>
+      <Sidebar />
+      <div id="oliven-main">
+        <Header />
+        <Bridegroom />
+      </div>
+    </>
   );
 }
 
