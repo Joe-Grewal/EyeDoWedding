@@ -5,6 +5,7 @@ import Countdown from './components/countdown';
 import Story from './components/story';
 import Seeyou from './components/seeyou';
 import Organization from './components/organization';
+import Gallery from './components/gallery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Story />
         <Seeyou />
         <Organization />
+        <Gallery />
       </div>
     </>
   );

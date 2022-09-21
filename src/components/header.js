@@ -8,7 +8,7 @@ function Header () {
         <div className='row'>
           <div className='col-md-12 text-center caption'>
             <h1 className='animate-box' data-animate-effect='fadeInUp'>
-              Randy & Denise
+              Denise & Randy
             </h1>
             <h5 className='animate-box' data-animate-effect='fadeInUp'>
               07 July, 2023 – Richmond, B.C.
