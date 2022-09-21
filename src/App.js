@@ -7,6 +7,7 @@ import Seeyou from './components/seeyou';
 import Organization from './components/organization';
 import Gallery from './components/gallery';
 import Where from './components/where';
+import RSVP from './components/rsvp';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Organization />
         <Gallery />
         <Where />
+        <RSVP />
       </div>
     </>
   );
