@@ -8,6 +8,7 @@ import Organization from './components/organization';
 import Gallery from './components/gallery';
 import Where from './components/where';
 import RSVP from './components/rsvp';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Gallery />
         <Where />
         <RSVP />
+        <Footer />
       </div>
     </>
   );
