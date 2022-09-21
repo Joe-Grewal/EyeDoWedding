@@ -6,6 +6,7 @@ import Story from './components/story';
 import Seeyou from './components/seeyou';
 import Organization from './components/organization';
 import Gallery from './components/gallery';
+import Where from './components/where';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Seeyou />
         <Organization />
         <Gallery />
+        <Where />
       </div>
     </>
   );
