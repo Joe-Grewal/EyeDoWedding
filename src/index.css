@@ -478,7 +478,7 @@ input[type=radio]:checked:before {
   position: relative;
 }
 #oliven-aside {
-  padding: 60px 30px;
+  padding: 60px 00px;
   width: 22%;
   position: fixed;
   bottom: 0;
@@ -504,8 +504,9 @@ input[type=radio]:checked:before {
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
       -o-transform: translateX(-270px);
-      transform: translateX(-270px);
+      /* transform: translateX(-270px); */
       padding-top: 30px;
+      transform: translateX(-100%);
   }
 }
 #oliven-aside .oliven-logo {
